@@ -8,10 +8,11 @@ body {
 
 .navbar {
   padding: 0.5rem;
+  padding-top: 1.5rem;
 }
 
-.inter-font {
-  font-family: "Inter", sans-serif;
+.heading-font {
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .navbar-nav > .nav-item {
@@ -20,10 +21,22 @@ body {
 }
 
 .navbar-brand {
-  margin-right: 43vw;
+  padding-right: 13vw;
 }
 
 #header-title {
-  font-size: 1.75rem;
+  font-size: 3rem;
   font-family: "Bebas Neue", sans-serif;
+}
+
+#header-subtitle {
+  font-size: 1.5rem;
+}
+
+.prim-white {
+  color: #EAEAEA;
+}
+
+.navbar-brand {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
