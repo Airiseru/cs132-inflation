@@ -1,1 +1,3 @@
-import './style.sass'
+import './style.sass';
+import 'bootstrap';
+
