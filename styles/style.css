@@ -105,6 +105,17 @@ h1 {
     margin: 0 3rem
 }
 
+.highlight {
+    color: #b85ba8;
+}
+
+.references, a {
+    color: #aaa9a9;
+    font-style: italic;
+    text-decoration: none;
+}
+
+
 @media only screen and (max-width: 1000px){
     .navbar-brand {
         text-align: center;
