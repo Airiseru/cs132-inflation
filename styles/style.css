@@ -1,0 +1,102 @@
+body {
+    min-height: 100vh;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  .primary-bg-color {
+    background-color: #262730;
+  }
+  
+  .navbar {
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+  }
+  
+  .heading-font {
+    font-family: "Bebas Neue", sans-serif;
+  }
+  
+  .navbar-nav > .nav-item {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  
+  .navbar-brand {
+    padding-right: 13vw;
+  }
+  
+  #header-title {
+    font-size: 3rem;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  
+  #header-subtitle {
+    font-size: 1.5rem;
+  }
+  
+  .prim-white {
+    color: #EAEAEA;
+  }
+  
+  .navbar-brand {
+    text-align: center;
+  }
+  
+  #home-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    flex-direction: column;
+    gap: 2.1rem;
+  }
+  
+  #home-picture-container {
+    width: 20rem;
+    height: 20rem;
+    border: 0.75rem solid #4A1942;
+    border-radius: 50%;
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    background-position: right 30%;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  #home-picture {
+    width: 25rem;
+    height: 25rem;
+    box-sizing: border-box;
+    object-fit: cover;
+    object-position: 130% 20%;
+  }
+  
+  .gradient {
+    width: 272px;
+    height: 272px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(137, 49, 104, 0.7));
+    position: absolute;
+    z-index: 4;
+  }
+  
+  .img-wrapper {
+    width: 272px !important;
+    height: 272px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: absolute;
+  }
+  
+  #home-paragraph-text {
+    color: #EAEAEA;
+    font-family: "Inter", sans-serif;
+    padding: 0 3rem;
+    line-height: 1.5;
+    text-align: justify;
+  }/*# sourceMappingURL=style.css.map */
