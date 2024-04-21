@@ -102,14 +102,15 @@ h1 {
 }
 
 #content-div {
-    margin: 0 3rem
+    margin: 0 3rem;
+    line-height: 1.75rem;
 }
 
 .highlight {
     color: #b85ba8;
 }
 
-.references, a {
+.references, .references a {
     color: #aaa9a9;
     font-style: italic;
     text-decoration: none;
