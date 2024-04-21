@@ -100,3 +100,6 @@ body {
     line-height: 1.5;
     text-align: justify;
   }/*# sourceMappingURL=style.css.map */
+  #content-div{
+    margin: 0 3rem
+  }
