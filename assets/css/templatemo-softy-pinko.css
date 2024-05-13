@@ -108,7 +108,7 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: #262730;
   font-family: "Raleway", sans-serif;
 }
 
@@ -148,7 +148,7 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 42px;
-  color: #1e1e1e;
+  color: #fff; /* original: 1e1e1e*/
   letter-spacing: 0.25px;
   margin-bottom: 30px;
   position: relative;
@@ -161,7 +161,7 @@ body {
 .center-heading .section-title {
   font-weight: 500;
   font-size: 28px;
-  color: #1e1e1e;
+  color: #fff; /* original: 1e1e1e*/
   letter-spacing: 1.75px;
   line-height: 38px;
   margin-bottom: 20px;
@@ -175,7 +175,7 @@ body {
   text-align: center;
   font-weight: 400;
   font-size: 16px;
-  color: #777;
+  color: #fff; /* original #777*/
   line-height: 28px;
   letter-spacing: 1px;
   margin-bottom: 50px;
@@ -187,14 +187,14 @@ body {
 
 .center-text p {
   font-size: 15px;
-  color: #777;
+  color: #fff; /* original #777*/
   margin-bottom: 30px;
 }
 
 .left-text {
   font-weight: 400;
   font-size: 16px;
-  color: #777;
+  color: #fff; /* original #777*/
   line-height: 28px;
   letter-spacing: 1px;
 }
