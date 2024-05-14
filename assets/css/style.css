@@ -36,3 +36,19 @@
 .padding-top-50{
     padding-top: 50px;
 }
+.heading-text{
+    color: #FFF;
+    font-size: 2rem;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+.bg-primary-color{
+    background-color: #893168;
+}
+.padding-10{
+    padding: 10px;
+}
+.rounded-border{
+    border-radius: 100px;
+}
+
