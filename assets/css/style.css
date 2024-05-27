@@ -77,3 +77,7 @@
 #tech-used > .mini-content{
     min-height: max-content;
 }
+.left-heading .subsection-title{
+    font-size: 22px;
+    color: white;
+}
