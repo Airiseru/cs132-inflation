@@ -5,16 +5,24 @@
     display: grid;
     grid-template-areas: 
         "rationale rationale"
+        "solution solution"
+        "background-desc background-desc"
         "terms research-questions"
         "null_hypo alt_hypo";
     grid-template-columns: 50% 50%;
-    grid-template-rows: max-content max-content max-content;
+    grid-template-rows: max-content max-content max-content max-content;
     gap: 1vh 2vw;
 
 }
 .grid-text-container{
     max-height: max-content;
     background-color: inherit;
+}
+#solution-container{
+    grid-area: solution;
+}
+#background-container{
+    grid-area: background-desc;
 }
 #rationale-container{
     grid-area: rationale;
@@ -154,4 +162,13 @@
 }
 .portrait-header-text{
     color: #FFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.colab-link {
+    color: black;
 }
