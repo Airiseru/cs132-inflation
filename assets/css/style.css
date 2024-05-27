@@ -1,5 +1,5 @@
 :root{
-    --black: #262730;
+    --black: #111111;
 }
 #rationale-grid-container{
     display: grid;
@@ -120,7 +120,7 @@
 .btn-primary:hover, .btn-primary:active, .btn-primary:visited{
     background-color: #521c3dfd !important;
 }
-.section.colored h1, h2, h3, p{
+.section.colored > h1, .section.colored > h2,.section.colored > h3, .section.colored >p{
     color: var(--black);
 }
 .right-text{
@@ -130,9 +130,28 @@
     padding-bottom: 1.5rem;
     border-bottom: 1px solid var(--black);
 }
-.colored h1, h2, h3, p{
+.colored > h1, .colored > h2, .colored > h3, .colored > p{
     color: var(--black) !important;
 }
 .subsection-container div{
     margin-bottom: 1rem;
+}
+#methodology-container div{
+    margin-bottom: 1rem;
+}
+.plot-image-styling{
+    display: block;
+    max-width: 800px;
+    max-height: 700px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+.portrait-image-styling{
+    width: auto;
+    height: 300px;
+    border-radius: 20px;
+}
+.portrait-header-text{
+    color: #FFF;
 }
