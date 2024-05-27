@@ -10,7 +10,7 @@
         "terms research-questions"
         "null_hypo alt_hypo";
     grid-template-columns: 50% 50%;
-    grid-template-rows: max-content max-content max-content max-content;
+    grid-template-rows: max-content max-content max-content max-content max-content;
     gap: 1vh 2vw;
 
 }
