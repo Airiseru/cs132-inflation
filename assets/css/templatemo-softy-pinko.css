@@ -1120,6 +1120,7 @@ team
   border-radius: 20px;
   position: relative;
   margin-bottom: 30px;
+  height: clamp(350px, 49vh, 500px);
   padding-bottom: 25px;
 }
 

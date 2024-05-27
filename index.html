@@ -260,7 +260,7 @@ https://templatemo.com/tm-535-softy-pinko
                 </div>
                 <div class="offset-lg-3 col-lg-6">
                     <div class="center-text">
-                        <p>Donec tempus, sem non rutrum imperdiet, lectus orci fringilla nulla, at accumsan elit eros a turpis. Ut sagittis lectus libero.</p>
+                        <p>How will we solve our problem?</p>
                     </div>
                 </div>
             </div>
@@ -271,17 +271,12 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="team-item">
                         <div class="team-content">
-                            <i><img src="assets/images/testimonial-icon.png" alt=""></i>
-                            <p>Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</p>
-                            <div class="user-image">
-                                <img src="http://placehold.it/60x60" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3 class="user-name">Catherine Soft</h3>
-                                <span>Managing Director</span>
-                            </div>
+                            <h1 class="center-heading"><strong>Action Plan</strong></h1>
+                            <p>Our plan is to use statistics and plot the points to visualize and analyze the trend of inflation and identify possible events and possible causes of (upward or downward) spikes in the inflation rate.
+                            </p>
                         </div>
                     </div>
+                    <button class="next-steps-button btn btn-primary">Get the original dataset</button>
                 </div>
                 <!-- ***** Testimonials Item End ***** -->
                 
@@ -289,17 +284,12 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="team-item">
                         <div class="team-content">
-                            <i><img src="assets/images/testimonial-icon.png" alt=""></i>
-                            <p>Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
-                            <div class="user-image">
-                                <img src="http://placehold.it/60x60" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3 class="user-name">Kelvin Wood</h3>
-                                <span>Digital Marketer</span>
-                            </div>
+                            <h1 class="center-heading"><strong>Data Collection</strong></h1>
+                            <p>After searching the internet, we found a dataset from the website of Bangko Sentral ng Pilipinas (BSP) containing information about inflation, purchasing power, and CPI collected by the Philippine Statistics Authority (PSA).
+                            </p>
                         </div>
                     </div>
+                    <button class="next-steps-button btn btn-primary">Learn more about the data collection process</button>
                 </div>
                 <!-- ***** Testimonials Item End ***** -->
                 
@@ -307,24 +297,68 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="team-item">
                         <div class="team-content">
-                            <i><img src="assets/images/testimonial-icon.png" alt=""></i>
-                            <p>Quisque diam odio, maximus ac consectetur eu, auctor non lorem. Cras quis est non ante ultrices molestie. Ut vehicula et diam at aliquam.</p>
-                            <div class="user-image">
-                                <img src="http://placehold.it/60x60" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3 class="user-name">David Martin</h3>
-                                <span>Website Manager</span>
-                            </div>
+                            <h1 class="center-heading"><strong>About our Dataset</strong></h1>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Only contains data regarding inflation rate – every month from 1995 to 2023</li>
+                                <li class="list-group-item">Split into 3 sections: Philippines, NCR, and AONCR</li>
+                                <li class="list-group-item">13 commodity groups – removed the “Financial Services” commodity group due to the lack of data points
+                                </li>
+                                <li class="list-group-item">13,572 total data cells – 348 rows x 13 commodities x 3 sections
+                                </li>
+                            </ul>
+                            </p>
                         </div>
                     </div>
+                    <button class="next-steps-button btn btn-primary">Check out our dataset here!</button>
                 </div>
                 <!-- ***** Testimonials Item End ***** -->
             </div>
+            
         </div>
     </section>
     <!-- ***** Testimonials End ***** -->
+    <section class="section colored" id="methodology">
+        <div class="container">
+            <div class="row">
+                <div class="left-heading">
+                    <h1 class="section-title"><strong>Methodology</strong></h1>
+                </div>
+            </div>
+            <div class="offset-lg-0">
+                <div class="d-flex flex-row justify-content-between dropdown-container" style="margin-bottom: 2rem">
+                    <div class="left-heading">
+                        <h1 class="subsection-title">Preprocessing</h1>
+                    </div>
+                    <div class="right-text">
+                        <p class="title-description">Making sure that the data is ready is always the first step! From checking missing values to changing types of data and adding columns, we need to ensure that everything is ready for action!
+                        </p>
+                    </div>
+                </div>
+                <div class="offset-lg-1">
+                    <div class="subsection-container">
+                        <div class="left-heading colored">
+                            <h2 class="subsection-title">Checking the Data</h2>
+                        </div>
+                        <div class="container">
+                            <p>Using the .info() method on each dataset (PHL, NCR, AONCR), we noticed that there were no null values and the type in each column is consistent or accurate with what is expected. This is great as we don’t have to worry about how to deal with them.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="subsection-container">
+                        <div class="left-heading colored">
+                            <h2 class="subsection-title">Adding New Columns</h2>
+                        </div>
+                        <div class="container">
+                            <p>All that was done in this step was adding columns that make it easier for us to use later on. For each dataset, we added a date, month, and year since the base period The date column essentially consists the Month, Year of each inflation rate. This will be used for the visualization, which is the next step.
 
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- ***** Pricing Plans Start ***** -->
     <section class="section colored" id="pricing-plans">
         <div class="container">

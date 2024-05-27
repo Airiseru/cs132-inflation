@@ -1,3 +1,6 @@
+:root{
+    --black: #262730;
+}
 #rationale-grid-container{
     display: grid;
     grid-template-areas: 
@@ -80,4 +83,56 @@
 .left-heading .subsection-title{
     font-size: 22px;
     color: white;
+}
+.full-width{
+    width: 100%;
+    min-height: max-content;
+}
+.team-item .team-content .center-heading {
+    margin-top: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #464646;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+.team-item .team-content .list-group-item{
+    color: #777;
+    font-size: 15px;
+}
+.next-steps-button{
+    width: inherit;
+    border: none;
+    border-radius: 17px;
+    padding: 0.7rem;
+    box-sizing: border-box;
+    height: 80px; /* Change for media query thanks */
+    color: white;
+    background-color: #893168;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #893168 !important;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited{
+    background-color: #521c3dfd !important;
+}
+.section.colored h1, h2, h3, p{
+    color: var(--black);
+}
+.right-text{
+    max-width: 400px;
+}
+.dropdown-container{
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--black);
+}
+.colored h1, h2, h3, p{
+    color: var(--black) !important;
+}
+.subsection-container div{
+    margin-bottom: 1rem;
 }
