@@ -115,17 +115,21 @@
     width: inherit;
     border: none;
     border-radius: 17px;
-    padding: 0.7rem;
+    padding: 1rem;
     box-sizing: border-box;
-    height: 80px; /* Change for media query thanks */
     color: white;
     background-color: #893168;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
 }
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+.btn-primary, .btn-primary:hover, .btn-primary:active{
     background-color: #893168 !important;
+    transition: background-color 0.25s;
 }
 
-.btn-primary:hover, .btn-primary:active, .btn-primary:visited{
+.btn-primary:hover, .btn-primary:active{
     background-color: #521c3dfd !important;
 }
 .section.colored > h1, .section.colored > h2,.section.colored > h3, .section.colored >p{
