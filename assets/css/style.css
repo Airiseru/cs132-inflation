@@ -1,5 +1,6 @@
 :root{
     --black: #111111;
+    --weird-white: #f2f2fe;
 }
 #rationale-grid-container{
     display: grid;
@@ -83,8 +84,6 @@
 .mini-box{
     height: 100%;
 }
-#tech-used{
-}
 #tech-used > .mini-content{
     min-height: max-content;
 }
@@ -138,17 +137,10 @@
 .right-text{
     max-width: 400px;
 }
-.dropdown-container{
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid var(--black);
-}
 .colored > h1, .colored > h2, .colored > h3, .colored > p{
     color: var(--black) !important;
 }
-.subsection-container div{
-    margin-bottom: 1rem;
-}
-#methodology-container div{
+.subsection-container div{  
     margin-bottom: 1rem;
 }
 .plot-image-styling{
@@ -175,4 +167,15 @@ a {
 
 .colab-link {
     color: black;
+}
+.title-description{
+    max-width: 30rem;
+}
+.accordion-container{
+    background-color: #fff;
+}
+.card-header{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
 }
