@@ -151,6 +151,11 @@
     height: auto;
     margin: 0 auto;
 }
+.plot-embed-styling{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
 .portrait-image-styling{
     width: auto;
     height: 300px;
@@ -182,4 +187,7 @@ a {
 .title-button-spacing{
     width: max-content;
     gap: 1rem;
+}
+embed{
+    overflow: hidden !important;
 }
