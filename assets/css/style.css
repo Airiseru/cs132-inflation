@@ -177,5 +177,9 @@ a {
 .card-header{
     padding-top: 3rem;
     padding-bottom: 3rem;
-
+    background-color: rgba(0,0,0,0.000000);
+}
+.title-button-spacing{
+    width: max-content;
+    gap: 1rem;
 }
