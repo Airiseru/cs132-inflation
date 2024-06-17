@@ -174,13 +174,14 @@ a {
 }
 
 .colab-link {
-    color: black;
+    color: #fff;
 }
 .title-description{
     max-width: 30rem;
 }
 .accordion-container{
     background-color: inherit;
+    margin-bottom: 1rem;
 }
 .light{
     background-color: #FFF;
