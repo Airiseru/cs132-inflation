@@ -1,5 +1,5 @@
 :root{
-    --black: #111111;
+    --black: #212529;
     --weird-white: #f2f2fe;
 }
 #rationale-grid-container{
@@ -152,7 +152,7 @@
     max-height: 700px;
     width: auto;
     height: auto;
-    margin: 0 auto;
+    margin: 3rem auto;
 }
 .plot-embed-styling{
     width: 1000px;

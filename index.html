@@ -579,7 +579,7 @@ https://templatemo.com/tm-535-softy-pinko
                             </div>
                             <div class="container dark">
                                 <img src="assets/images/phl-ncr-aoncr-inflation.png" alt="" class="plot-image-styling">
-                                <ul style="list-style-type: circle;">
+                                <ul style="list-style-type: circle; color: #FFF">
                                     <li>Null Hypothesis: Inflation rates of the commodities in the "Significant Group"
                                         increase over time while the rest does not increase or decrease significantly over
                                         time
@@ -588,7 +588,6 @@ https://templatemo.com/tm-535-softy-pinko
                                         Group" do not increase over time while the rest increase/decrease significantly
                                     </li>
                                 </ul>
-                                <br>
     
                                 <p>To test the hypothesis, a simple OLS linear regression was done on the data over time for
                                     each of the groups, and the following was obtained for each commodity:
@@ -613,18 +612,15 @@ https://templatemo.com/tm-535-softy-pinko
                                         the inflation rates of the "All Items" commodity group of NCR and AONCR
                                     </li>
                                 </ul>
-                                <br>
                                 <p>Before getting to the answer, we must first check the data. To start, we check the
                                     general trend of the data.
                                 </p>
                                 <img src="assets/images/[5] ncr-inflation-rate.png" alt="" class="plot-image-styling">
-                                <br>
                                 <img src="assets/images/[6] aoncr-inflation-rate.png" alt="" class="plot-image-styling">
                                 <p>Notice that in both plots, there is a surprisingly downward trend, as indicated by the
                                     regression line. Although this may not be indicative of what is actually happening, this
                                     is a good thing because it tells us that there is a linear trend which satisfies the
                                     first part of cross correlation.
-                                    <br>
                                     An Augmented Dickey-Fuller (ADF) Test was then performed to check whether the data is
                                     stationary or not. As seen below, the p-value of NCR was not less than 0.05, which
                                     indicates that the data for all items in NCR is not stationary.
