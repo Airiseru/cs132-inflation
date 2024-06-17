@@ -40,7 +40,7 @@ https://templatemo.com/tm-535-softy-pinko
 
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
-        <div class="container">
+        <div class="container navbar-sizing">
             <div class="row">
                 <div class="col-12">
                     <nav class="main-nav">
@@ -53,11 +53,12 @@ https://templatemo.com/tm-535-softy-pinko
                         <ul class="nav">
                             <li><a href="#welcome" class="active">Home</a></li>
                             <li><a href="#features">Rationale and Introduction</a></li>
-                            <li><a href="#work-process">Tools and Technologies</a></li>
-                            <li><a href="#testimonials">Testimonials</a></li>
-                            <li><a href="#pricing-plans">Pricing Tables</a></li>
-                            <li><a href="#blog">Blog Entries</a></li>
-                            <li><a href="#contact-us">Contact Us</a></li>
+                            <li><a href="#tech-used">Tools and Technologies</a></li>
+                            <li><a href="#next-steps">Data Science Plan</a></li>
+                            <li><a href="#methodology">Methodology</a></li>
+                            <li><a href="#results">Results</a></li>
+                            <li><a href="#conclusions">Conclusion</a></li>
+                            <li><a href="#contact-us">About Us</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -328,7 +329,7 @@ https://templatemo.com/tm-535-softy-pinko
     <!-- ***** Home Parallax End ***** -->
 
     <!-- ***** Testimonials Start ***** -->
-    <section class="section" id="testimonials">
+    <section class="section" id="next-steps">
         <div class="container">
             <!-- ***** Section Title Start ***** -->
             <div class="row">
@@ -412,6 +413,7 @@ https://templatemo.com/tm-535-softy-pinko
         </div>
     </section>
     <!-- ***** Testimonials End ***** -->
+     <!-- ***** Methodology Start ***** -->
     <section class="section colored" id="methodology" style="background-color: #fff;">
         <div class="container" id="methodology-container">
             <div class="row" style="margin-bottom: 0rem;">
@@ -421,7 +423,7 @@ https://templatemo.com/tm-535-softy-pinko
             </div>
             <p><a href="https://colab.research.google.com/drive/1pK35xr_qG9m0boiItpljJRrJ3o6dQGao?usp=sharing"
                     class="colab-link">Link to colab</a></p>
-            <div class="offset-lg-0 card accordion-container border-light" data-toggle="collapse" data-target="#collapse-1"
+            <div class="offset-lg-0 card accordion-container light border-light" data-toggle="collapse" data-target="#collapse-1"
                 aria-expanded="false" aria-controls="collapse-1" id="accordion-preprocessing">
                 <div class="card-header d-flex flex-row justify-content-between align-items-center"
                     id="heading-preprocessing">
@@ -472,7 +474,7 @@ https://templatemo.com/tm-535-softy-pinko
                 </div>
             </div>
 
-            <div class="offset-lg-0 card dropdown-container border-light" data-toggle="collapse" data-target="#collapse-2"
+            <div class="offset-lg-0 card accordion-container light border-light" data-toggle="collapse" data-target="#collapse-2"
                 aria-expanded="false" aria-controls="collapse-2" id="accordion-data-visualization">
                 <div class="card-header d-flex flex-row justify-content-between align-items-center"
                     id="heading-data-visualization">
@@ -550,7 +552,7 @@ https://templatemo.com/tm-535-softy-pinko
                 </div>
 
             </div>
-            <div class="offset-lg-0 card dropdown-container border-light" data-toggle="collapse" data-target="#collapse-3"
+            <div class="offset-lg-0 card accordion-container light border-light" data-toggle="collapse" data-target="#collapse-3"
             aria-expanded="false" aria-controls="collapse-3" id="accordion-stat-tests">
                 <div class="card-header d-flex flex-row justify-content-between align-items-center" id="heading-stat-tests">
                     <div class="d-flex flex-row justify-content-between title-button-spacing">
@@ -649,19 +651,188 @@ https://templatemo.com/tm-535-softy-pinko
 
         </div>
     </section>
+    <!-- ***** Methodology End ***** -->
+    <!-- Results Start -->
+    <section class="section" id="results">
+        <div class="container" id="methodology-container">
+            <div class="row" style="margin-bottom: 0rem;">
+                <div class="left-heading">
+                    <h1 class="section-title"><strong>Results</strong></h1>
+                </div>
+            </div>
+            <p><a href="https://colab.research.google.com/drive/1pK35xr_qG9m0boiItpljJRrJ3o6dQGao?usp=sharing"
+                    class="colab-link" style="color: white;">Link to colab</a></p>
+            <div class="offset-lg-0 card accordion-container" data-toggle="collapse" data-target="#collapse-1"
+                aria-expanded="false" aria-controls="collapse-1" id="accordion-preprocessing" style="border-bottom: 1px solid rgba(255,255,255, 0.5)">
+                <div class="card-header d-flex flex-row justify-content-between align-items-center"
+                    id="heading-preprocessing">
+                    <div class="d-flex dark flex-row justify-content-between title-button-spacing">
+                        <div class="dropdown-toggle" style="color: white;"></div>
+                        <h5 class="subsection-title">Preprocessing</h5>
+                    </div> 
+                    <div class="dark">
+                        <p class="title-description">Making sure that the data is ready is always the first step! From
+                            checking missing values to changing types of data and adding columns, we need to ensure that
+                            everything is ready for action!
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse hide" id="collapse-1" aria-labelledby="heading-preprocessing"
+                    data-parent="#accordion-preprocessing">
+                    <div class="card-body">
+                        <div class="subsection-container">
+                            <div class="left-heading dark">
+                                <h2 class="subsection-title">Checking the Data</h2>
+                            </div>
+                            <div class="container dark">
+                                <p>Using the .info() method on each dataset (PHL, NCR, AONCR), we noticed that there
+                                    were no
+                                    null values and the type in each column is consistent or accurate with what is
+                                    expected.
+                                    This is great as we don’t have to worry about how to deal with them.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="subsection-container">
+                            <div class="left-heading dark">
+                                <h2 class="subsection-title">Adding New Columns</h2>
+                            </div>
+                            <div class="container dark">
+                                <p>All that was done in this step was adding columns that make it easier for us to use
+                                    later
+                                    on. For each dataset, we added a date, month, and year since the base period The
+                                    date
+                                    column essentially consists the Month, Year of each inflation rate. This will be
+                                    used
+                                    for the visualization, which is the next step.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="offset-lg-0 card accordion-container" data-toggle="collapse" data-target="#collapse-1"
+                aria-expanded="false" aria-controls="collapse-1" id="accordion-preprocessing" style="border-bottom: 1px solid rgba(255,255,255, 0.5)">
+                <div class="card-header d-flex flex-row justify-content-between align-items-center"
+                    id="heading-preprocessing">
+                    <div class="d-flex dark flex-row justify-content-between title-button-spacing">
+                        <div class="dropdown-toggle" style="color: white;"></div>
+                        <h5 class="subsection-title">Preprocessing</h5>
+                    </div> 
+                    <div class="dark">
+                        <p class="title-description">Making sure that the data is ready is always the first step! From
+                            checking missing values to changing types of data and adding columns, we need to ensure that
+                            everything is ready for action!
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse hide" id="collapse-1" aria-labelledby="heading-preprocessing"
+                    data-parent="#accordion-preprocessing">
+                    <div class="card-body">
+                        <div class="subsection-container">
+                            <div class="left-heading dark">
+                                <h2 class="subsection-title">Checking the Data</h2>
+                            </div>
+                            <div class="container dark">
+                                <p>Using the .info() method on each dataset (PHL, NCR, AONCR), we noticed that there
+                                    were no
+                                    null values and the type in each column is consistent or accurate with what is
+                                    expected.
+                                    This is great as we don’t have to worry about how to deal with them.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="subsection-container">
+                            <div class="left-heading dark">
+                                <h2 class="subsection-title">Adding New Columns</h2>
+                            </div>
+                            <div class="container dark">
+                                <p>All that was done in this step was adding columns that make it easier for us to use
+                                    later
+                                    on. For each dataset, we added a date, month, and year since the base period The
+                                    date
+                                    column essentially consists the Month, Year of each inflation rate. This will be
+                                    used
+                                    for the visualization, which is the next step.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="offset-lg-0 card accordion-container" data-toggle="collapse" data-target="#collapse-1"
+                aria-expanded="false" aria-controls="collapse-1" id="accordion-preprocessing" style="border-bottom: 1px solid rgba(255,255,255, 0.5)">
+                <div class="card-header d-flex flex-row justify-content-between align-items-center"
+                    id="heading-preprocessing">
+                    <div class="d-flex dark flex-row justify-content-between title-button-spacing">
+                        <div class="dropdown-toggle" style="color: white;"></div>
+                        <h5 class="subsection-title">Preprocessing</h5>
+                    </div> 
+                    <div class="dark">
+                        <p class="title-description">Making sure that the data is ready is always the first step! From
+                            checking missing values to changing types of data and adding columns, we need to ensure that
+                            everything is ready for action!
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse hide" id="collapse-1" aria-labelledby="heading-preprocessing"
+                    data-parent="#accordion-preprocessing">
+                    <div class="card-body">
+                        <div class="subsection-container">
+                            <div class="left-heading dark">
+                                <h2 class="subsection-title">Checking the Data</h2>
+                            </div>
+                            <div class="container dark">
+                                <p>Using the .info() method on each dataset (PHL, NCR, AONCR), we noticed that there
+                                    were no
+                                    null values and the type in each column is consistent or accurate with what is
+                                    expected.
+                                    This is great as we don’t have to worry about how to deal with them.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="subsection-container">
+                            <div class="left-heading dark">
+                                <h2 class="subsection-title">Adding New Columns</h2>
+                            </div>
+                            <div class="container dark">
+                                <p>All that was done in this step was adding columns that make it easier for us to use
+                                    later
+                                    on. For each dataset, we added a date, month, and year since the base period The
+                                    date
+                                    column essentially consists the Month, Year of each inflation rate. This will be
+                                    used
+                                    for the visualization, which is the next step.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+    </section>  
+
     <!-- ***** Pricing Plans Start ***** -->
-    <section class="section colored" id="pricing-plans">
+    <section class="section colored" id="conclusions">
         <div class="container">
             <!-- ***** Section Title Start ***** -->
             <div class="row">
                 <div class="col-lg-12">
                     <div class="center-heading">
-                        <h2 class="section-title">Pricing Plans</h2>
+                        <h2 class="section-title light">Conclusions</h2>
                     </div>
                 </div>
                 <div class="offset-lg-3 col-lg-6">
                     <div class="center-text">
-                        <p>Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis
+                        <p class="light">Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis
                             congue risus volutpat.</p>
                     </div>
                 </div>
@@ -674,7 +845,7 @@ https://templatemo.com/tm-535-softy-pinko
                     data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
                     <div class="pricing-item">
                         <div class="pricing-header">
-                            <h3 class="pricing-title">Starter</h3>
+                            <h3 class="pricing-title">Research Question 1</h3>
                         </div>
                         <div class="pricing-body">
                             <div class="price-wrapper">
@@ -703,7 +874,7 @@ https://templatemo.com/tm-535-softy-pinko
                     data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
                     <div class="pricing-item active">
                         <div class="pricing-header">
-                            <h3 class="pricing-title">Premium</h3>
+                            <h3 class="pricing-title">Research Question 2</h3>
                         </div>
                         <div class="pricing-body">
                             <div class="price-wrapper">
@@ -732,7 +903,7 @@ https://templatemo.com/tm-535-softy-pinko
                     data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
                     <div class="pricing-item">
                         <div class="pricing-header">
-                            <h3 class="pricing-title">Advanced</h3>
+                            <h3 class="pricing-title">Machine Learning</h3>
                         </div>
                         <div class="pricing-body">
                             <div class="price-wrapper">
@@ -796,7 +967,7 @@ https://templatemo.com/tm-535-softy-pinko
     <!-- ***** Counter Parallax End ***** -->
 
     <!-- ***** Blog Start ***** -->
-    <section class="section" id="blog">
+    <section class="section" id="about-us">
         <div class="container">
             <!-- ***** Section Title Start ***** -->
             <div class="row">
@@ -813,52 +984,68 @@ https://templatemo.com/tm-535-softy-pinko
             </div>
             <!-- ***** Section Title End ***** -->
 
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="blog-post-thumb">
+            <div class="d-flex flex-row justify-content-between">
+                <div>
+                    <div class="blog-post-thumb d-flex flex-column justify-content-between">
                         <img src="assets/images/Lozada.PNG" alt="" class="portrait-image-styling">
                         <div class="blog-content">
-                            <h3>
-                                <a href="#">Jose Miguel Lozada</a>
-                            </h3>
-                            <div class="text">
-                                I’m JM, a BS Comp Sci student at UP Diliman. I like anime (currently obsessed with
-                                Frieren), movies and video games, and I like to draw and play music. I hate picky
-                                eaters, cockroaches, and systems series.
+                            <div class="name-desc-spacing">
+                                <h3>
+                                    <a href="#">Jose Miguel Lozada</a>
+                                </h3>
+                                <div class="text about-text">
+                                    I’m JM, a BS Comp Sci student at UP Diliman. I like anime (currently obsessed with
+                                    Frieren), movies and video games, and I like to draw and play music. I hate picky
+                                    eaters, cockroaches, and systems series.
+                                </div>
                             </div>
-                            <a href="#" class="main-button">Read More</a>
+                            <div class="d-flex flex-row" style="gap: 1rem;">
+                                <a href="#" class="contact-button"><img src="assets/images/github.svg" alt="" srcset="" width="22px" height="22px"></a>
+                                <a href="#" class="contact-button"><img src="assets/images/linkedin.svg" alt="" srcset="" width="22px" height="22px"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="blog-post-thumb">
+                <div>
+                    <div class="blog-post-thumb d-flex flex-column justify-content-between">
                         <img src="assets/images/Dee.PNG" alt="" class="portrait-image-styling">
                         <div class="blog-content">
-                            <h3>
-                                <a href="#">Denise Mae Dee</a>
-                            </h3>
-                            <div class="text">
-                                Hello! I’m Den/Dee/Dendee, a Computer Science student at the University of the
-                                Philippines, Diliman. I love to play games, watch (anime/drama/docus), and read
-                                (especially romance books as an NBSB).
+                            <div class="name-desc-spacing">
+                                <h3>
+                                    <a href="#">Denise Mae Dee</a>
+                                </h3>
+                                <div class="text about-text">
+                                    Hello! I’m Den/Dee/Dendee, a Computer Science student at the University of the
+                                    Philippines, Diliman. I love to play games, watch (anime/drama/docus), and read
+                                    (especially romance books as an NBSB).
+                                </div>
                             </div>
-                            <a href="#" class="main-button">Read More</a>
+                            <div class="d-flex flex-row" style="gap: 1rem;">
+                                <a href="#" class="contact-button"><img src="assets/images/github.svg" alt="" srcset="" width="22px" height="22px"></a>
+                                <a href="#" class="contact-button"><img src="assets/images/linkedin.svg" alt="" srcset="" width="22px" height="22px"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="blog-post-thumb">
+                <div>
+                    <div class="blog-post-thumb d-flex flex-column justify-content-between">
                         <img src="assets/images/Dy.PNG" alt="" class="portrait-image-styling">
                         <div class="blog-content">
-                            <h3>
-                                <a href="#">Denzell Robyn Dy</a>
-                            </h3>
-                            <div class="text">
-                                Hey guys, I’m Denzell Dy! I’m a BS Computer Science student at UP Diliman. I like
-                                playing video games, listening to music, and also like to dabble in programming and
-                                robotics.
+                            <div class="name-desc-spacing">
+                                <h3>
+                                    <a href="#">Denzell Robyn Dy</a>
+                                </h3>
+                                <div class="text about-text">
+                                    Hello, I’m Denzell Dy! I’m a BS Computer Science student at UP Diliman. I like
+                                    playing video games, listening to music, and also like to dabble in programming and
+                                    robotics.
+                                </div>
                             </div>
-                            <a href="#" class="main-button">Read More</a>
+                            <div class="d-flex flex-row" style="gap: 1rem;">
+                                <a href="#" class="contact-button"><img src="assets/images/github.svg" alt="" srcset="" width="22px" height="22px"></a>
+                                <a href="#" class="contact-button"><img src="assets/images/linkedin.svg" alt="" srcset="" width="22px" height="22px"></a>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>

@@ -77,6 +77,9 @@
         max-width: 190px;
         min-height: max-content;
     }
+    .navbar-sizing{
+        max-width: max-content;
+    }
 }
 #force-center{
     justify-content: center;
@@ -177,8 +180,16 @@ a {
     max-width: 30rem;
 }
 .accordion-container{
-    background-color: #fff;
+    background-color: inherit;
 }
+.light{
+    background-color: #FFF;
+    color: #262730 !important;
+}
+.dark > h1, .dark > h2, .dark > h5, .dark > h4, .dark > p{
+    color: #FFF;
+}
+
 .card-header{
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -190,4 +201,18 @@ a {
 }
 embed{
     overflow: hidden !important;
+}
+.about-text{
+    text-align: justify;
+    color: #fff;
+}
+.name-desc-spacing{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.contact-button{
+    width: 22px;
+    height: auto;
+
 }
