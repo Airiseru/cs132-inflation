@@ -1,5 +1,5 @@
 :root{
-    --black: #212529;
+    --black: #111111;
     --weird-white: #f2f2fe;
 }
 #rationale-grid-container{
@@ -216,4 +216,7 @@ embed{
     width: 22px;
     height: auto;
 
+}
+tr > th, tr > td{
+    color: white;
 }
