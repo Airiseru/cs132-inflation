@@ -1214,9 +1214,6 @@ pricing
 .pricing-item {
   background: #FFFFFF;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  margin-bottom: 30px;
-  margin-top: 20px;
   padding: 30px 0px 40px 0px;
 }
 
@@ -1226,6 +1223,7 @@ pricing
 
 .pricing-item.active .pricing-header .pricing-title {
   color: #1e1e1e;
+  font-weight: 1000;
 }
 
 .pricing-item.active .pricing-body .price-wrapper {

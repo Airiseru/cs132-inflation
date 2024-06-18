@@ -175,6 +175,9 @@ a {
 
 .colab-link {
     color: #fff;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background: #893168;
+    border-radius: 0.6rem;
 }
 .title-description{
     max-width: 30rem;
@@ -224,5 +227,5 @@ tr > th, tr > td{
 }
 .highlight{
     color: #36827F;
-    font-weight: 600;
+    font-weight: 700;
 }
