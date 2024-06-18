@@ -196,7 +196,11 @@ a {
 .card-header{
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: rgba(0,0,0,0.000000);
+    border: none !important;
+    background: none !important;
+}
+.border-slate{
+    border: 1px solid rgba(255,255,255,0.02) !important;
 }
 .title-button-spacing{
     width: max-content;
@@ -228,4 +232,11 @@ tr > th, tr > td{
 .highlight{
     color: #36827F;
     font-weight: 700;
+}
+.separator{
+    width: 95%;
+    background-color: white;
+    height: 1px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
 }
