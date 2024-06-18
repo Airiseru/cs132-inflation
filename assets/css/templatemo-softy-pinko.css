@@ -866,7 +866,7 @@ parallax & home seperator
   content: '';
   position: absolute;
   width: 140%;
-  height: 140%;
+  height: 100vh;
   opacity: .95;
   background-repeat: no-repeat;
   background-size: cover;
@@ -880,6 +880,7 @@ parallax & home seperator
 .mini .mini-content {
   position: relative;
   z-index: 3;
+  min-height: max-content;
 }
 
 .mini .mini-content .info {
@@ -933,11 +934,9 @@ parallax & home seperator
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   margin-bottom: 30px;
   position: relative;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .mini .mini-content .mini-box:hover {
@@ -1215,6 +1214,8 @@ pricing
   background: #FFFFFF;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
   padding: 30px 0px 40px 0px;
+  height: 100%;
+  border-radius: 1.5rem;
 }
 
 .pricing-item.active .pricing-header {
@@ -1223,7 +1224,7 @@ pricing
 
 .pricing-item.active .pricing-header .pricing-title {
   color: #1e1e1e;
-  font-weight: 1000;
+  font-weight: 700;
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
@@ -1250,7 +1251,7 @@ pricing
 }
 
 .pricing-item .pricing-header .pricing-title {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 17px;
   letter-spacing: 0.25px;
   color: #1e1e1e;
@@ -1590,4 +1591,7 @@ preloader
   100% {
     opacity: 0;
   }
+}
+#force-center{
+  min-height: 317px;
 }
