@@ -181,13 +181,12 @@ a {
 }
 .accordion-container{
     background-color: inherit;
-    margin-bottom: 1rem;
 }
 .light{
     background-color: #FFF;
     color: #262730 !important;
 }
-.dark > h1, .dark > h2, .dark > h5, .dark > h4, .dark > p{
+.dark > h1, .dark > h2, .dark > h5, .dark > h4, .dark > p, .dark > h3{
     color: #FFF;
 }
 
@@ -219,4 +218,11 @@ embed{
 }
 tr > th, tr > td{
     color: white;
+}
+.hypo-text{
+    font-size: 1.1rem;
+}
+.highlight{
+    color: #36827F;
+    font-weight: 600;
 }

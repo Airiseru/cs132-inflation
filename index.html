@@ -428,7 +428,7 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="card-header d-flex flex-row justify-content-between align-items-center"
                     id="heading-preprocessing">
                     <div class="d-flex dark flex-row justify-content-between title-button-spacing">
-                        <div class="dropdown-toggle"></div>
+                        <div class="dropdown-toggle" style="color: white;"></div>
                         <h5 class="subsection-title">Preprocessing</h5>
                     </div><div class="dark">
                         <p class="title-description">Making sure that the data is ready is always the first step! From
@@ -437,7 +437,7 @@ https://templatemo.com/tm-535-softy-pinko
                         </p>
                     </div>
                 </div>
-                <div class="collapse hide" id="collapse-1" aria-labelledby="heading-preprocessing"
+                <div class="collapse hide border-bottom border-left border-right border-light" id="collapse-1" aria-labelledby="heading-preprocessing"
                     data-parent="#accordion-preprocessing">
                     <div class="card-body">
                         <div class="subsection-container">
@@ -480,14 +480,14 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="card-header d-flex flex-row justify-content-between align-items-center"
                     id="heading-data-visualization">
                     <div class="d-flex flex-row dark justify-content-between title-button-spacing">
-                        <div class="dropdown-toggle"></div>
+                        <div class="dropdown-toggle" style="color: white;"></div>
                         <h5 class="subsection-title">Data Visualization</h5>
                     </div><div class="dark">
                         <p class="title-description">Before diving deeper into the realm of numbers, we created multiple
                             graphs, comparing subsets of the data to one another.</p>
                             </div>
                         </div>
-                <div class="collapse hide" id="collapse-2" aria-labelledby="heading-preprocessing"
+                <div class="collapse hide border-bottom border-left border-right border-light" id="collapse-2" aria-labelledby="heading-preprocessing"
                     data-parent="#accordion-data-visualization">
                     <div class="card-body">
                         <div class="subsection-container">
@@ -558,7 +558,7 @@ https://templatemo.com/tm-535-softy-pinko
             aria-expanded="false" aria-controls="collapse-3" id="accordion-stat-tests" >
                 <div class="card-header d-flex flex-row justify-content-between align-items-center" id="heading-stat-tests">
                     <div class="d-flex flex-row dark justify-content-between title-button-spacing">
-                        <div class="dropdown-toggle"></div>
+                        <div class="dropdown-toggle" style="color: white;"></div>
                         <h5 class="subsection-title">Time Series EDA and Statistical tests</h5>
                     </div><div class="dark">
                         <p class="title-description">After a better understanding of how the inflation rates move, we
@@ -567,7 +567,7 @@ https://templatemo.com/tm-535-softy-pinko
                     </div>
                     </div>
                 </div>
-                <div class="collapse hide" id="collapse-3" aria-labelledby="heading-stat-tests"
+                <div class="collapse hide border-bottom border-left border-right border-light" id="collapse-3" aria-labelledby="heading-stat-tests"
                 data-parent="#accordion-data-visualization">
                     <div class="card-body">
                         <div class="subsection-container">
@@ -579,20 +579,21 @@ https://templatemo.com/tm-535-softy-pinko
                             </div>
                             <div class="container dark">
                                 <img src="assets/images/phl-ncr-aoncr-inflation.png" alt="" class="plot-image-styling">
-                                <ul style="list-style-type: circle; color: #FFF">
-                                    <li>Null Hypothesis: Inflation rates of the commodities in the "Significant Group"
-                                        increase over time while the rest does not increase or decrease significantly over
-                                        time
-                                    </li>
-                                    <li>Alternative Hypothesis: Inflation rates of the commodities in the "Significant
-                                        Group" do not increase over time while the rest increase/decrease significantly
-                                    </li>
-                                </ul>
-    
+                                <div class="text dark mb-5">
+                                    <h4 class="mb-2 fs-[2rem]">Null Hypothesis</h3>
+                                    <p class="container hypo-text">Inflation rates of the commodities in the "Significant Group"
+                                        <span class="highlight">increase over time</span> while the rest does not increase or decrease significantly over
+                                        time</p>
+                                </div>
+                                <div class="text dark mb-5">
+                                    <h4 class="mb-2">Alternative Hypothesis</h3>
+                                    <p class="container hypo-text">Inflation rates of the commodities in the "Significant
+                                        Group" <span class="highlight">do not increase over time</span> while the rest increase/decrease significantly</p>
+                                </div>
                                 <p>To test the hypothesis, a simple OLS linear regression was done on the data over time for
                                     each of the groups, and the following was obtained for each commodity:
                                 </p>
-                                <table class="table table-bordered">
+                                <table class="table table-bordered mt-5">
                                     <thead>
                                         <tr>
                                             <th scope="col">Coefficient of Linear Regression</th>
