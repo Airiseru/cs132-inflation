@@ -312,3 +312,7 @@ tr > th, tr > td{
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
+.action-image-style{
+    width: 70px;
+    height: auto;
+}
