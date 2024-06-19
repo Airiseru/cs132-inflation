@@ -1222,7 +1222,7 @@ pricing
 .pricing-item {
   background: #FFFFFF;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
-  padding: 30px 0px 40px 0px;
+  padding: 30px 0px 0px 0px;
   height: 100%;
   border-radius: 1.5rem;
 }
