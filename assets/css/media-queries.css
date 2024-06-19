@@ -1,0 +1,18 @@
+@media (max-width: 600px) {
+    .row > .col-sm-12, .row > .col-md-6{
+        margin-bottom: 3rem;
+    }
+    .change-to-block{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    #force-center > div{
+        margin-bottom: 2rem;
+    }
+    #rationale-grid-container{
+        display: block !important;
+    }
+
+}

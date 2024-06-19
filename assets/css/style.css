@@ -179,8 +179,8 @@
     margin: 0 auto;
 }
 .portrait-image-styling{
-    width: auto;
-    height: 300px;
+    width: 100%;
+    min-height: 200px;
     border-radius: 20px;
 }
 .portrait-header-text{

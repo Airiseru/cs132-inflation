@@ -868,22 +868,12 @@ parallax & home seperator
   position: relative;
   padding-top: 90px;
   padding-bottom: 90px;
-}
-
-.mini:before {
-  content: '';
-  position: absolute;
-  width: 140%;
-  height: 100vh;
-  opacity: .95;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-image: url(../images/asd.png);
-  z-index: 2;
-  top: -20%;
-  left: -20%;
 }
+
 
 .mini .mini-content {
   position: relative;
@@ -1136,8 +1126,8 @@ team
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
   border-radius: 20px;
   position: relative;
-  margin-bottom: 30px;
-  height: clamp(350px, 49vh, 500px);
+  margin-bottom: 1vh;
+  height: clamp(350px, 75vh, 500px);
   padding-bottom: 25px;
 }
 
@@ -1342,6 +1332,7 @@ blog
   margin-bottom: 30px;
   min-height: 545px;
   max-height: 600px;
+  width: min(80vw, 300px);
 }
 
 .blog-post-thumb > .blog-content {
