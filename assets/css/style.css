@@ -297,3 +297,12 @@ tr > th, tr > td{
 .table{
     margin-bottom: 3rem !important;
 }
+
+.references {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.references, .references > a {
+    color: rgba(255, 255, 255, 0.350);
+}
