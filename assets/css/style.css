@@ -5,9 +5,9 @@
 #rationale-grid-container{
     display: grid;
     grid-template-areas: 
+        "background-desc background-desc"
         "rationale rationale"
         "solution solution"
-        "background-desc background-desc"
         "terms research-questions"
         "null_hypo alt_hypo"
         "signif signif";
