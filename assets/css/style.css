@@ -307,6 +307,12 @@ tr > th, tr > td{
     font-style: italic;
 }
 
+.ir-plot-title {
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 0;
+}
+
 .references, .references > a {
     color: rgba(255, 255, 255, 0.350);
 }
