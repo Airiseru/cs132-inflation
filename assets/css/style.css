@@ -93,6 +93,8 @@
 .left-heading .subsection-title{
     font-size: 18px;
     color: white;
+    text-decoration: underline;
+    text-underline-offset: 8px;
 }
 .full-width{
     width: 100%;
