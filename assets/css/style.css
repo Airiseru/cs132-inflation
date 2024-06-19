@@ -306,3 +306,9 @@ tr > th, tr > td{
 .references, .references > a {
     color: rgba(255, 255, 255, 0.350);
 }
+.gradient-bg{
+    background: url(../images/asd.png) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
