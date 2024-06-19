@@ -287,3 +287,6 @@ tr > th, tr > td{
     text-align: center;
     margin: 0;
 }
+.table{
+    margin-bottom: 3rem !important;
+}
