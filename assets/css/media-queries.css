@@ -19,6 +19,11 @@
         margin: 0 auto !important;
         border-radius: 1rem  !important;
     }
-
+    .card-header{
+        flex-direction: column !important;
+        justify-content: start !important;
+        align-items: start !important;
+        width: 100%;
+    }
 
 }
