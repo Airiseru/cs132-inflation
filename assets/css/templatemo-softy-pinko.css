@@ -387,7 +387,7 @@ header
 */
 .header-area {
   position: fixed;
-  bottom: 30px;
+  bottom: -5px;
   left: 0px;
   right: 0px;
   z-index: 100;
