@@ -116,6 +116,10 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+p {
+  font-size: 16px;
+}
+
 ::selection {
   background: #ff589e;
   color: #fff;
@@ -191,7 +195,7 @@ body {
 }
 
 .center-text p {
-  font-size: 15px;
+  font-size: 16px;
   color: #fff; /* original #777*/
   margin-bottom: 30px;
 }
@@ -684,7 +688,7 @@ welcome
 
 .welcome-area .header-text p {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   color: #fff;
   line-height: 28px;
   letter-spacing: 0.25px;
@@ -1195,14 +1199,15 @@ team
 
 .team-item .team-content p {
   margin-top: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 35px;
+  padding-right: 35px;
   margin-bottom: 25px;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   color: #777;
   letter-spacing: 0.6px;
   line-height: 26px;
+  text-align: justify;
 }
 
 /* 
@@ -1251,11 +1256,11 @@ pricing
 }
 
 .pricing-item .pricing-header .pricing-title {
-  font-weight: 600;
-  font-size: 17px;
+  font-weight: 700;
+  font-size: 20px;
   letter-spacing: 0.25px;
   color: #1e1e1e;
-  width: 180px;
+  /* width: 180px; */
   height: 40px;
   line-height: 40px;
   left: 0px;
@@ -1363,7 +1368,7 @@ blog
 
 .blog-post-thumb .text {
   font-weight: 400;
-  font-size: 13px;
+  font-size: 14px;
   color: #FFF;
   letter-spacing: 0.26px;
   line-height: 26px;
