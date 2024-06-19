@@ -308,9 +308,10 @@ tr > th, tr > td{
 }
 .gradient-bg{
     background: url(../images/asd.png) !important;
-    background-position: center !important;
+    background-position: start !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+
 }
 .action-image-style{
     width: 70px;
