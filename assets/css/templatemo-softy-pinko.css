@@ -1257,6 +1257,7 @@ pricing
   display: block;
   position: relative;
   padding-bottom: 10px;
+  padding-top: 20px !important;
 }
 
 .pricing-item .pricing-header .pricing-title {
