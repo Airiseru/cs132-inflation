@@ -173,13 +173,13 @@
     display: block;
     max-width: 800px;
     max-height: 700px;
-    width: auto;
+    width: 110%;
     height: auto;
     margin: 3rem auto;
 }
 .plot-embed-styling{
     width: 110%;
-    height: 600px;
+    height: 630px;
     margin: 0 auto;
 }
 .portrait-image-styling{
@@ -320,4 +320,7 @@ tr > th, tr > td{
 .action-image-style{
     width: 70px;
     height: auto;
+}
+.embed-rep{
+    display: none !important;
 }

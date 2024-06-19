@@ -25,5 +25,13 @@
         align-items: start !important;
         width: 100%;
     }
-
+    .embed-rep{
+        display: block !important;
+    }
+    embed{
+        display: none !important;
+    }
+    .plot-cap{
+        display: none !important;
+    }
 }
