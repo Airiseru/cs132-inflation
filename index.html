@@ -522,7 +522,6 @@ https://templatemo.com/tm-535-softy-pinko
                                 </h2>
                             </div>
                             <div class="container dark d-flex flex-column justify-content-center">
-                                <p class="plot-cap">This is an interactive plot!</p>
                                 <embed src="./assets/files/plot_3d.html" class="plot-embed-styling">
                                 <p>These are the commodity groups that were deemed to be significant by the group. Some
                                     of
@@ -538,7 +537,6 @@ https://templatemo.com/tm-535-softy-pinko
                                 </h2>
                             </div>
                             <div class="container dark">
-                                <p class="plot-cap">This is an interactive plot!</p>
                                 <embed src="./assets/files/plot_all_items_ph.html" width="1100px" height="370px">
                             </div>
                         </div>
@@ -548,7 +546,6 @@ https://templatemo.com/tm-535-softy-pinko
                                 </h2>
                             </div>
                             <div class="container dark">
-                                <p class="plot-cap">This is an interactive plot!</p>
                                 <embed src="./assets/files/superimposed_commodity.html" width="1100px" height="370px">
                                 <p>This superimposed graph shows the inflation rate of every commodity group recorded in
                                     one
@@ -583,265 +580,180 @@ https://templatemo.com/tm-535-softy-pinko
                         data-parent="#accordion-data-visualization">
                         <div class="separator"></div>
 
-                        <div class="card-body">
-                            <div class="subsection-container">
-                                <div class="left-heading">
-                                    <h2 class="subsection-title">Research Question 1: How does the inflation rate (of
-                                        each
-                                        commodity group) change throughout the years?
-
-                                    </h2>
-                                </div>
-                                <div class="container dark">
-                                    <img src="assets/images/phl-ncr-aoncr-inflation.png" alt=""
-                                        class="plot-image-styling">
-                                    <div class="text dark mb-5">
-                                        <h4 class="mb-2 fs-[2rem]">Null Hypothesis</h3>
-                                            <p class="container hypo-text">Inflation rates of the commodities in the
-                                                "Significant Group"
-                                                <span class="highlight">increase over time</span> while the rest does
-                                                not
-                                                increase or decrease significantly over
-                                                time.
-                                            </p>
-                                    </div>
-                                    <div class="text dark mb-5">
-                                        <h4 class="mb-2">Alternative Hypothesis</h3>
-                                            <p class="container hypo-text">Inflation rates of the commodities in the
-                                                "Significant
-                                                Group" <span class="highlight">do not increase over time</span> while
-                                                the
-                                                rest increase/decrease significantly.</p>
-                                    </div>
-                                    <p>To test the hypothesis, a simple OLS linear regression was done on the data over
-                                        time
-                                        for
-                                        each of the groups, and the following was obtained for each commodity:
-                                    </p>
-                                    <table class="table table-bordered mt-5">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col" class="comm-grp">Commodity Group</th>
-                                                <th scope="col">Coefficient of Linear Regression</th>
-                                                <th scope="col">p-value</th>
-                                                <th scope="col">r²</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="comm-grp">All Items</td>
-                                                <td>264.1</td>
-                                                <td>0.000</td>
-                                                <td>0.210</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="comm-grp">Food and Non-Alcoholic Beverages</td>
-                                                <td>134.7</td>
-                                                <td>0.002</td>
-                                                <td>0.027</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="comm-grp">Alcoholic Beverages and Tobacco</td>
-                                                <td>-539.7</td>
-                                                <td>0.000</td>
-                                                <td>0.156</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="comm-grp">Housing, Water, Electricity, and Gas</td>
-                                                <td>426.1</td>
-                                                <td>0.000</td>
-                                                <td>0.383</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="comm-grp">Health</td>
-                                                <td>476.3</td>
-                                                <td>0.000</td>
-                                                <td>0.515</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="comm-grp">Transport</td>
-                                                <td>450.0</td>
-                                                <td>0.000</td>
-                                                <td>0.071</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="comm-grp">Clothing and Footwear</td>
-                                                <td>237.7</td>
-                                                <td>0.000</td>
-                                                <td>0.363</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="comm-grp">Furnishing, Household Equipment and Routine
-                                                    Household
-                                                    Maintenance</td>
-                                                <td>210.5</td>
-                                                <td>0.000</td>
-                                                <td>0.226</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="comm-grp">Information and Communication</td>
-                                                <td>242.6</td>
-                                                <td>0.000</td>
-                                                <td>0.167</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="comm-grp">Recreation, Sport, and Culture</td>
-                                                <td>-45.73</td>
-                                                <td>0.305</td>
-                                                <td>0.003</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="comm-grp">Education Services</td>
-                                                <td>1161</td>
-                                                <td>0.000</td>
-                                                <td>0.734</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="comm-grp">Restaurants and Accomodation Services</td>
-                                                <td>192.9</td>
-                                                <td>0.000</td>
-                                                <td>0.169</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="comm-grp">Personal Care, and Miscellaneous Goods and Services
-                                                </td>
-                                                <td>268.4</td>
-                                                <td>0.000</td>
-                                                <td>0.247</td>
-                                            </tr>
-
-                                        </tbody>
-                                    </table>
-
-                                </div>
+                    <div class="card-body">
+                        <div class="subsection-container">
+                            <div class="left-heading">
+                                <h2 class="subsection-title">Research Question 1: How does the inflation rate (of each
+                                    commodity group) change throughout the years?
+    
+                                </h2>
                             </div>
-                            <div class="subsection-container">
-                                <div class="left-heading">
-                                    <h2 class="subsection-title">Research Question 2: How much does the rate of NCR
-                                        differ
-                                        from
-                                        or affect the rate of areas outside NCR (AONCR)?
-                                    </h2>
+                            <div class="container dark">
+                                <img src="assets/images/phl-ncr-aoncr-inflation.png" alt="" class="plot-image-styling">
+                                <div class="text dark mb-5">
+                                    <h4 class="mb-2 fs-[2rem]">Null Hypothesis</h3>
+                                    <p class="container hypo-text">Inflation rates of the commodities in the "Significant Group"
+                                        <span class="highlight">increase over time</span> while the rest does not increase or decrease significantly over
+                                        time.</p>
                                 </div>
-                                <div class="container dark">
-                                    <div class="text dark mb-5">
-                                        <h4 class="mb-2 fs-[2rem]">Null Hypothesis</h3>
-                                            <p class="container hypo-text">There is a <span
-                                                    class="highlight">correlation
-                                                    (significant relationship)</span> between the
-                                                inflation rates of the "All Items" commodity group of NCR and AONCR.
-                                            </p>
-                                    </div>
-                                    <div class="text dark mb-5">
-                                        <h4 class="mb-2">Alternative Hypothesis</h3>
-                                            <p class="container hypo-text">There is <span class="highlight">no
-                                                    correlation
-                                                    (insignificant relationship)</span> between
-                                                the inflation rates of the "All Items" commodity group of NCR and AONCR.
-                                            </p>
-                                    </div>
-
-                                    <p>Before getting to the answer, we must first check the data. To start, we check
-                                        the
-                                        general trend of the data.
-                                    </p>
-                                    <img src="assets/images/[5] ncr-inflation-rate.png" alt=""
-                                        class="plot-image-styling">
-                                    <img src="assets/images/[6] aoncr-inflation-rate.png" alt=""
-                                        class="plot-image-styling">
-                                    <p>Notice that in both plots, there is a surprisingly downward trend, as indicated
-                                        by
-                                        the
-                                        regression line. Although this may not be indicative of what is actually
-                                        happening,
-                                        this
-                                        is a good thing because it tells us that there is a linear trend which satisfies
-                                        the
-                                        first part of cross correlation.
-                                    </p>
-                                    <p>
-                                        An Augmented Dickey-Fuller (ADF) Test was then performed to check whether the
-                                        data
-                                        is
-                                        stationary or not. As seen below, the p-value of NCR was not less than 0.05,
-                                        which
-                                        indicates that the data for all items in NCR is not stationary.
-                                    </p>
-                                    <!-- <img src="assets/images/adf-test.png" alt="" class="plot-image-styling"> -->
-                                    <table class="table table-bordered mt-5 mb-5">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col">Commodity Group</th>
-                                                <th scope="col">NCR</th>
-                                                <th scope="col">AONCR</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Test Statistic</td>
-                                                <td>-2.812509</td>
-                                                <td>-3.058097</td>
-                                            </tr>
-                                            <tr>
-                                                <td>P-value</td>
-                                                <td>0.056509</td>
-                                                <td>0.029814</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Lags Used</td>
-                                                <td>17.000000</td>
-                                                <td>14.000000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>No. of Observations</td>
-                                                <td>330.000000</td>
-                                                <td>333.000000</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Critical Value (1%)</td>
-                                                <td>-3.450322</td>
-                                                <td>-3.450141</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Critical Value (5%)</td>
-                                                <td>-2.870338</td>
-                                                <td>-2.870259</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Critical Value (10%)</td>
-                                                <td>-2.571458</td>
-                                                <td>-2.571415</td>
-                                            </tr>
+                                <div class="text dark mb-5">
+                                    <h4 class="mb-2">Alternative Hypothesis</h3>
+                                    <p class="container hypo-text">Inflation rates of the commodities in the "Significant
+                                        Group" <span class="highlight">do not increase over time</span> while the rest increase/decrease significantly.</p>
+                                </div>
+                                <p>To test the hypothesis, a simple OLS linear regression was done on the data over time for
+                                    each of the groups, and the following was obtained for each commodity:
+                                </p>
+                                <table class="table table-bordered mt-5">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Commodity Group</th>
+                                            <th scope="col">Coefficient of Linear Regression</th>
+                                            <th scope="col">p-value</th>
+                                            <th scope="col">r^2</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>All Items</th>
+                                            <td>264.1</td>
+                                            <td>0.000</td>
+                                            <td>0.210</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Food and Non-alcoholic Beverages</th>
+                                            <td>134.7</td>
+                                            <td>0.002</td>
+                                            <td>0.027</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Alcoholic Beverages and Tobacco</th>
+                                            <td>-539.7</td>
+                                            <td>0.000</td>
+                                            <td>0.156</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Housing, Water, Electricity, and Gas</th>
+                                            <td>426.1</td>
+                                            <td>0.000</td>
+                                            <td>0.383</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Health</th>
+                                            <td>476.3</td>
+                                            <td>0.000</td>
+                                            <td>0.515</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Transport</th>
+                                            <td>450.0</td>
+                                            <td>0.000</td>
+                                            <td>0.071</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Clothing and Footwear</th>
+                                            <td>237.7</td>
+                                            <td>0.000</td>
+                                            <td>0.363</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Furnishing, Household Equipment and Routine Household Maintenance</th>
+                                            <td>210.5</td>
+                                            <td>0.000</td>
+                                            <td>0.226</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Information and Communication</th>
+                                            <td>242.6</td>
+                                            <td>0.000</td>
+                                            <td>0.167</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Recreation, Sport, and Culture</th>
+                                            <td>-45.73</td>
+                                            <td>0.305</td>
+                                            <td>0.003</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Education Services</th>
+                                            <td>1161</td>
+                                            <td>0.000</td>
+                                            <td>0.734</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Restaurants and Accomodation Services</th>
+                                            <td>192.9</td>
+                                            <td>0.000</td>
+                                            <td>0.169</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Personal Care, and Miscellaneous Goods and Services</th>
+                                            <td>268.4</td>
+                                            <td>0.000</td>
+                                            <td>0.247</td>
+                                        </tr>
 
                                         </tbody>
                                     </table>
-                                    <p>Since one of the series is not stationary, then we applied detrending. For
-                                        consistency,
-                                        detrending was applied to both of the series. This was done to isolate the
-                                        fluctuation
-                                        in the data from the trend.</p>
-                                    <p>With that, we are finally ready to find the cross correlation coefficients.
-                                        Plotting
-                                        the
-                                        coefficients and lags with respect to the detrended value, we get the following:
-                                    </p>
-                                    <img src="assets/images/[7] .png" alt="" class="plot-image-styling">
-                                    <p>To check the significance of the coefficients found, the Granger Causality Test
-                                        was
-                                        performed. Performing the test after 12 months and 100 months, it was found that
-                                        the
-                                        p-values were 0.03 and 0.2163 respectively.</p>
-                                    <p>
-                                        Note that for this case, when p < 0.05, it indicates that Granger-causes Y.
-                                            Granger-causes simply indicate that knowing the value of X at a certain lag
-                                            is useful for predicting the value of Y at a later time, indicating that
-                                            they are correlated. </p>
-                                </div>
+
                             </div>
                         </div>
-
+                        <div class="subsection-container">
+                            <div class="left-heading">
+                                <h2 class="subsection-title">Research Question 2: How much does the rate of NCR differ from
+                                    or affect the rate of areas outside NCR (AONCR)?
+                                </h2>
+                            </div>
+                            <div class="container dark">
+                                <div class="text dark mb-5">
+                                    <h4 class="mb-2 fs-[2rem]">Null Hypothesis</h3>
+                                    <p class="container hypo-text">There is a <span class="highlight">correlation (significant relationship)</span> between the
+                                        inflation rates of the "All Items" commodity group of NCR and AONCR.
+                                        </p>
+                                </div>
+                                <div class="text dark mb-5">
+                                    <h4 class="mb-2">Alternative Hypothesis</h3>
+                                    <p class="container hypo-text">There is <span class="highlight">no correlation (insignificant relationship)</span> between
+                                        the inflation rates of the "All Items" commodity group of NCR and AONCR.</p>
+                                </div>
+                                
+                                <p>Before getting to the answer, we must first check the data. To start, we check the
+                                    general trend of the data.
+                                </p>
+                                <img src="assets/images/[5] ncr-inflation-rate.png" alt="" class="plot-image-styling">
+                                <img src="assets/images/[6] aoncr-inflation-rate.png" alt="" class="plot-image-styling">
+                                <p>Notice that in both plots, there is a surprisingly downward trend, as indicated by the
+                                    regression line. Although this may not be indicative of what is actually happening, this
+                                    is a good thing because it tells us that there is a linear trend which satisfies the
+                                    first part of cross correlation.
+                                    An Augmented Dickey-Fuller (ADF) Test was then performed to check whether the data is
+                                    stationary or not. As seen below, the p-value of NCR was not less than 0.05, which
+                                    indicates that the data for all items in NCR is not stationary.
+                                </p>
+                                <img src="assets/images/adf-test.png" alt="" class="plot-image-styling">
+                                <p>Since one of the series is not stationary, then we applied detrending. For consistency,
+                                    detrending was applied to both of the series. This was done to isolate the fluctuation
+                                    in the data from the trend.</p>
+                                <p>With that, we are finally ready to find the cross correlation coefficients. Plotting the
+                                    coefficients and lags with respect to the detrended value, we get the following:
+                                </p>
+                                <img src="assets/images/[7] .png" alt="" class="plot-image-styling">
+                                <p>To check the significance of the coefficients found, the Granger Causality Test was
+                                    performed. Performing the test after 12 months and 100 months, it was found that the
+                                    p-values were 0.03 and 0.2163 respectively.
+    
+                                    <br>Note that for this case, when p < 0.05, it indicates that Granger-causes Y.
+                                        Granger-causes simply indicate that knowing the value of X at a certain lag is
+                                        useful for predicting the value of Y at a later time, indicating that they are
+                                        correlated. </p>
+                            </div>
+                        </div>
                     </div>
+                    
                 </div>
+            </div>
+
+        </div>
     </section>
     <!-- ***** Methodology End ***** -->
     <!-- ML Start -->
