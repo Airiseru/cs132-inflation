@@ -1600,3 +1600,26 @@ preloader
 #force-center{
   min-height: 317px;
 }
+p {
+  font-size: 16px;
+  text-align: justify;
+  margin: 20px 0;
+}
+
+.center-text p {
+  font-size: 16px;
+  color: #fff; /* original #777*/
+  margin: 0;
+  text-align: center;
+}
+
+.welcome-area .header-text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center;
+}

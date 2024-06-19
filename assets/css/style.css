@@ -146,8 +146,11 @@
 .colored > h1, .colored > h2, .colored > h3, .colored > p{
     color: var(--black) !important;
 }
-.subsection-container div{  
+.subsection-container{  
     margin-bottom: 3rem;
+}
+.left-heading{
+    margin-bottom: 1rem;
 }
 .plot-image-styling{
     display: block;
@@ -233,6 +236,7 @@ tr > th, tr > td{
 .highlight{
     color: #36827F;
     font-weight: 700;
+    transition: color ease 0.3s;   
 }
 .separator{
     width: 95%;
@@ -243,4 +247,38 @@ tr > th, tr > td{
 }
 .col-cont-styling{
     padding: 0 1.5rem;
+}
+a:hover{
+    color: rgba(54, 130, 127, 0.6);
+    transition: color ease 0.3s;   
+}
+tr > th, tr > td{
+    color: white;
+    text-align: center;
+}
+
+.comm-grp {
+    text-align: left;
+}
+
+.plot-cap {
+    margin: 0;
+    font-size: 14px;
+    text-align: right;
+    font-style: italic;
+}
+
+.dark > .plot-cap {
+    color: rgba(255, 255, 255, 0.350);
+}
+
+.card-header{
+    padding: 3rem 2.25rem 3rem 1.5rem;
+    border: none !important;
+    background: none !important;
+}
+
+.next-steps-button > p {
+    text-align: center;
+    margin: 0;
 }
