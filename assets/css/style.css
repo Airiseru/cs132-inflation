@@ -158,6 +158,11 @@
 .left-heading{
     margin-bottom: 1rem;
 }
+
+.left-heading > .section-title {
+    margin: 0;
+}
+
 .plot-image-styling{
     display: block;
     max-width: 800px;
