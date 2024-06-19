@@ -9,7 +9,8 @@
         "solution solution"
         "background-desc background-desc"
         "terms research-questions"
-        "null_hypo alt_hypo";
+        "null_hypo alt_hypo"
+        "signif signif";
     grid-template-columns: 50% 50%;
     grid-template-rows: max-content max-content max-content max-content max-content;
     gap: 1vh 2vw;
@@ -30,6 +31,9 @@
 }
 #terms-container{
     grid-area: terms;
+}
+#significant-grps{
+    grid-area: signif;
 }
 .bullet-point{
     width: 0.6rem;
