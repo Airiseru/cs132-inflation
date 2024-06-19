@@ -129,6 +129,12 @@
     justify-content: center;
     min-height: 80px;
 }
+
+.next-steps-button > p {
+    text-align: center;
+    margin: 0;
+}
+
 .btn-primary, .btn-primary:hover, .btn-primary:active{
     background-color: #893168 !important;
     transition: background-color 0.25s;
@@ -195,8 +201,7 @@ a {
 }
 
 .card-header{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem 2.25rem 3rem 1.5rem;
     border: none !important;
     background: none !important;
 }
@@ -226,6 +231,7 @@ embed{
 }
 tr > th, tr > td{
     color: white;
+    text-align: center;
 }
 .hypo-text{
     font-size: 1.1rem;
@@ -243,4 +249,19 @@ tr > th, tr > td{
 }
 .col-cont-styling{
     padding: 0 1.5rem;
+}
+
+.comm-grp {
+    text-align: left;
+}
+
+.plot-cap {
+    margin: 0;
+    font-size: 14px;
+    text-align: right;
+    font-style: italic;
+}
+
+.dark > .plot-cap {
+    color: rgba(255, 255, 255, 0.350);
 }

@@ -118,6 +118,8 @@ body {
 
 p {
   font-size: 16px;
+  text-align: justify;
+  margin: 20px 0;
 }
 
 ::selection {
@@ -197,7 +199,8 @@ p {
 .center-text p {
   font-size: 16px;
   color: #fff; /* original #777*/
-  margin-bottom: 30px;
+  margin: 0;
+  text-align: center;
 }
 
 .left-text {
@@ -694,6 +697,7 @@ welcome
   letter-spacing: 0.25px;
   margin-bottom: 40px;
   position: relative;
+  text-align: center;
 }
 
 @media (max-width: 991px) {
